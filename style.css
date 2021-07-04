@@ -9,7 +9,7 @@ h1{
 .jasim-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +39,33 @@ section{
     background-repeat: no-repeat;
     background-position: right;
    
+}
+.exper-item{
+    
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.experience-area{
+    background-image: url(image/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#expert-01{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+#expert-02{
+    border-left: 7px solid;
+    border-image: linear-gradient(black, red);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
 }
